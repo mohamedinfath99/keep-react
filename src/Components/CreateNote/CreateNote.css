@@ -1,4 +1,4 @@
-.create-note{
+.create-note {
     position: relative;
     width: 400px;
     margin: 30px auto 20px auto;
@@ -8,7 +8,8 @@
     box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
 
-.create-note input, .create-note textarea {
+.create-note input,
+.create-note textarea {
     width: 100%;
     border: none;
     padding: 4px;
@@ -18,7 +19,7 @@
     resize: none;
 }
 
-.create-note button{
+.create-note button {
     position: absolute;
     right: 20px;
     bottom: 5px;
@@ -31,4 +32,10 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     outline: none;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
 }
